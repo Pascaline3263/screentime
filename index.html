@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="child">
+        <div class="child__title">
+            <h3>Child</h3>  
+        </div>
+        <form action="" class="child__form">
+            <div>
+                <label for="">Child's Name:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Daily Allowance Points:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Daily Limit Points:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Value of Points:</label>
+            <input type="text">
+            </div>
+            <div class="child__button">
+                <button>Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="offlineActivity">
+        <div class="offlineActivity__title">
+            <h3>Offline Activity</h3>
+        </div>
+        <form action="" class="offlineActivity__form">
+            <div>
+                <label for="">Activity Name:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Points Per Hour:</label>
+                <input type="text">
+            </div>
+            <div class="offlineActivity__button">
+                <button>Save</button>
+            </div>
+        </form>
+    </div>
+    <div class="timer">
+        <div class="timer__title">
+            <h3>Timer</h3>     
+        </div>
+        <div class="timer__child">
+            <div class="timer__child-form">
+                <form action="" class="timer__child-form">
+                    <label for="child">Child:</label>
+                    <select name="child" id="child">
+                        <option value="child">Me</option>
+                    </select>
+                </form> 
+            </div>
+            <div class="child__today">
+                <p>Time Used:</p>
+                <p>Points:</p>
+            </div>
+        </div>
+        <div class="timer__postScreenTime">
+            <div class="timer__postScreenTime-form">
+                <form action="" class="postScreenTime__form">
+                    <label for="timer">Post Screen Time:</label>
+                    <select name="postscreentime" id="postscreentime">
+                        <option value="postscreentime">Select</option>
+                    </select>
+                </form> 
+            </div>
+            <div class="child__today">
+                <p>Times Available:</p>
+                <p>Points Available:</p>
+            </div>
+        </div>
+        <div class="timer__button">
+            <button>START TIMER</button>
+        </div>
+    </div>
+    <div class="usage">
+        <div class="usage__title">
+            <h3>Usage</h3>
+        </div>
+        <div class="usage__align">
+            <div class=" usage__form">
+                <form action="" class="usage__form-form">
+                    <label for="child">Child:</label>
+                    <select name="child" id="child">
+                        <option value="child"> </option>
+                    </select>
+                </form> 
+            </div>
+            <div class="usage__today">
+                <p>Times Used:</p>
+                <p>Points Used:</p>
+                <p>Time Available:</p>
+                <p>Points Available:</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="logActivity">
+        <div class="logActivity__title">
+            <h3>Log Activity</h3>
+        </div>
+            <form action="" class="logActivity__form">
+                <div>
+                    <label for="child">Child:</label>
+                    <select name="child" id="child">
+                        <option value="child"> </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="offlineActivity">Offline Activity:</label>
+                    <select name="offlineActivity" id="offlineActivity">
+                        <option value="offlineActivity"> </option>
+                    </select>
+                </div>
+                <div>
+                    <label>Hours:</label>
+                    <input type="text">
+                </div>
+                <div class="logActivity__button">
+                    <button>SAVE</button>
+                </div>
+            </form> 
+    </div>
+    <div class="prefferedonlineactivity">
+        <div class="prefferedonlineactivity__title">
+            <h3>Preffered Online Activity</h3>
+        </div>
+        <form action="" class="prefferedonlineactivity__form">
+            <div>
+                <label for="ActivityName">Activity Name:</label>
+                <select name="ActivityName" id="ActivityName">
+                    <option value="ActivityName"> </option>
+                </select>
+            </div>
+            <div>
+                <label>Points Per Hour:</label>
+                <input type="text">
+            </div>
+            <div class="prefferedonlineactivity__button">
+                <button>SAVE</button>
+            </div>
+        </form> 
+    </div>
+    <div class="timer__count">
+        <div class="timer__form-title">
+            <h3>Child</h3>
+        </div>
+        <div class="timer__align">
+            <div class=" timer__form">
+                <form action="" class="timer__form-form">
+                    <div>
+                        <label for="child">Child:</label>
+                        <select name="child" id="child">
+                            <option value="child"> </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="preferredonlineactivity">PreferredOnlineActivity:</label>
+                        <select name="preferredonlineactivity" id="preferredonlineactivity">
+                            <option value="preferredonlineactivity"> </option>
+                        </select>
+                    </div>
+                    <p>Points Per Hour:</p>
+                    <div>
+                        <label for="postScreenTimeActivity">Post Screen Time Activity:</label>
+                        <select name="postScreenTimeActivity" id="postScreenTimeActivity">
+                            <option value="postScreenTimeActivity"> </option>
+                        </select>
+                    </div>
+                </form> 
+            </div>
+            <div class="timer__today">
+                <h4 class="today">Today</h4>
+                <p>Times Used:</p>
+                <p>Points Used:</p>
+                <p>Time Available:</p>
+                <p>Points Available:</p>
+            </div>
+        </div>
+        <div class="timer__button">
+            <button>START TIMER</button>
+        </div>
+    </div>
+    <div class="secondtimer">
+        <div class="secondtimer__title">
+            <h3>Timer</h3>
+        </div>
+        <div class="secondtimer__align">
+            <div>
+                <form action="" class="secondtimer__form">
+                    <label for="child">Child:</label>
+                    <select name="child" id="child">
+                        <option value="child"> </option>
+                    </select>
+                    <label for="onlineActivity">OnlineActivity:</label>
+                    <select name="onlineActivity" id="onlineactivity">
+                        <option value="tv">TV</option>
+                        <option value="playstation">playstation</option>
+                    </select>
+                </form> 
+            </div>
+            <div class="secondtimer__today">
+                <p>Times Used:</p>
+                <p>Points Used:</p>
+                <p>Time Available:</p>
+                <p>Points Available:</p>
+                <p>Points Per Hour:</p>
+            </div>
+        </div>
+        <div class="secondtimer__button">
+            <button>START TIMER</button>
+            <button>STOP TIMER</button>
+        </div>
+    </div>
+    
+</body>
+</html>
